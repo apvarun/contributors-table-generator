@@ -1,14 +1,11 @@
 <script>
+import Generator from "./Generator.svelte";
 </script>
 
-<style>
-  main {
-    font-family: sans-serif;
-    text-align: center;
-  }
-</style>
+<svelte:head>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</svelte:head>
 
-<main>
-	<h1>Hello CodeSandbox</h1>
-	<h2>Start editing to see some magic happen!</h2>
+<main class="font-sans antialiased">
+	<Generator/>
 </main>

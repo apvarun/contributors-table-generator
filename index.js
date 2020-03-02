@@ -4,4 +4,6 @@ const app = new App({
   target: document.body
 });
 
+document.body.classList.add("bg-gray-400");
+
 export default app;
