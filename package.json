@@ -20,6 +20,6 @@
     "start": "sirv public",
     "start:dev": "sirv public --dev"
   },
-  "keywords": [],
-  "description": ""
+  "keywords": ["readme", "contributorlist", "contributors", "table"],
+  "description": "Generate HTML table of contributors list for readme"
 }
