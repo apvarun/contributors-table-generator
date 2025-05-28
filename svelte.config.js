@@ -5,7 +5,12 @@ export default {
   // for more information about preprocessors
   preprocess: [
     sveltePreprocess({
-      postcss: true,
+      postcss: false,
     }),
   ],
+  compilerOptions: {
+    compatibility: {
+      componentApi: 4,
+    },
+  },
 };
