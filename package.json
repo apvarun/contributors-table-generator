@@ -15,7 +15,7 @@
     "@tsconfig/svelte": "^5.0.4",
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.7",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.18",
     "postcss-load-config": "^6.0.1",
     "svelte": "^5.55.7",
     "svelte-check": "^4.2.1",
